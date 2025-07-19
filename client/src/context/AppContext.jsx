@@ -6,8 +6,8 @@ const MapContext = createContext();
 
 export const MapProvider = ({ children }) => {
   const [destLocation, setDestLocation] = useState(null);
-  // const apiUrl = "https://webride-server.onrender.com";
-  const apiUrl = "http://10.34.238.201:8001";
+  const apiUrl = "https://webridev1working-server.onrender.com";
+  // const apiUrl = "http://10.34.238.201:8001";
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const addToast = (message, type) => {
